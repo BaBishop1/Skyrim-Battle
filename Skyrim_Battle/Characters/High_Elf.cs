@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Skyrim_Battle.Characters
+namespace Skyrim_Battle
 {
     public class High_Elf
     {
