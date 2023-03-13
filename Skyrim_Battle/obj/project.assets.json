@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Bisho\\.nuget\\packages\\": {}
+    "C:\\Users\\Bryce\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bisho\\CodingFoundations\\assignments\\PairProgrammingGame\\Skyrim_Battle\\Skyrim_Battle.csproj",
+      "projectUniqueName": "C:\\Users\\Bryce\\Desktop\\ElevenFiftyProjects\\Coding Foundations\\assignments\\Pair_Programing\\Skyrim-Battle\\Skyrim_Battle\\Skyrim_Battle.csproj",
       "projectName": "Skyrim_Battle",
-      "projectPath": "C:\\Users\\Bisho\\CodingFoundations\\assignments\\PairProgrammingGame\\Skyrim_Battle\\Skyrim_Battle.csproj",
-      "packagesPath": "C:\\Users\\Bisho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bisho\\CodingFoundations\\assignments\\PairProgrammingGame\\Skyrim_Battle\\obj\\",
+      "projectPath": "C:\\Users\\Bryce\\Desktop\\ElevenFiftyProjects\\Coding Foundations\\assignments\\Pair_Programing\\Skyrim-Battle\\Skyrim_Battle\\Skyrim_Battle.csproj",
+      "packagesPath": "C:\\Users\\Bryce\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bryce\\Desktop\\ElevenFiftyProjects\\Coding Foundations\\assignments\\Pair_Programing\\Skyrim-Battle\\Skyrim_Battle\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Bisho\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Bryce\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

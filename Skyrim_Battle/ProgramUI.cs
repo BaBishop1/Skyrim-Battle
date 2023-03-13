@@ -54,23 +54,54 @@ namespace Skyrim_Battle
             Console.Clear();
             System.Console.WriteLine("You are a Nord, born and raised in the harsh winters of Skyrim.\n");
             System.Console.WriteLine("You are traveling to White-run and have suddenly been attacked by a High-Elf, Defend yourself!\n");
-            System.Console.WriteLine($"Choose Your Attack!\n" +
-            "1. Sword Slash\n" +
-            "2. Bow Shot\n" +
-            "3. Fire Bolt");
-            string attackChoice = Console.ReadLine();
-            
-            switch(attackChoice)
+            while(Bobby.Health > 0 && Billy.Health > 0)
             {
-                case "1":
-                System.Console.WriteLine($"You slash the High Elf for {Sword_Slash.Damage} {Sword_Slash.Type} damage");
-                System.Console.WriteLine(Bobby.TakeDamage(Sword_Slash));
-                System.Console.WriteLine($"Bobby is at {Bobby.Health} Health.");
-                break;
-                default:
-                System.Console.WriteLine("Lame");
-                break;
+                System.Console.WriteLine($"Choose Your Attack!\n" +
+                    "1. Sword Slash\n" +
+                    "2. Bow Shot\n" +
+                    "3. Fire Bolt");
+                string attackChoice = Console.ReadLine();
+                
+                switch(attackChoice)
+                {
+                    case "1":
+                        Console.Clear();
+                        System.Console.WriteLine($"You slash the High Elf for {Sword_Slash.Damage + 3} {Sword_Slash.Type} damage");
+                        System.Console.WriteLine(Bobby.TakeDamage(Sword_Slash));
+                        System.Console.WriteLine($"Bobby is at {Bobby.Health} Health.");
+                    break;
+
+                    case "2":
+                        Console.Clear();
+                        System.Console.WriteLine($"You shoot an arrow at the High Elf for {Bow_Shot.Damage} {Bow_Shot.Type} damage");
+                        System.Console.WriteLine(Bobby.TakeDamage(Bow_Shot));
+                        System.Console.WriteLine($"Bobby is at {Bobby.Health} Health.");
+                        break;
+
+                        case "3":
+                        Console.Clear();
+                        System.Console.WriteLine($"You shoot a fire bolt at the High Elf for {Fire_Bolt.Damage - 3} {Fire_Bolt.Type} damage");
+                        System.Console.WriteLine(Bobby.TakeDamage(Fire_Bolt));
+                        System.Console.WriteLine($"Bobby is at {Bobby.Health} Health.");
+                        break;
+
+                    default:
+                        System.Console.WriteLine("No attack equipped");
+                        break;
+                    
+                }
+               System.Console.WriteLine($"Bobby retaliates with {(Bobby.Attack()).Name}" +
+                $"You take {Billy.TakeDamage(Bobby.Attack())}");
             }
+
+            if (Bobby.Health <= 0)
+            {
+                System.Console.WriteLine("Who's next?");
+            }
+            else if (Billy.Health <= 0)
+            {
+                System.Console.WriteLine("You dishonor your family");
+            } 
             
         }
 

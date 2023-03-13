@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Skyrim_Battle
 {
-    public class High_Elf
+    public class High_Elf : ICharacter
     {
         public int Health {get; private set;} = 100;
 
