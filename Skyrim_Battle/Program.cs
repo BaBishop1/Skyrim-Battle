@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Skyrim_Battle;
 
 ProgramUI program = new ProgramUI();
     program.Run();

@@ -7,16 +7,17 @@ namespace Skyrim_Battle
 {
     public class High_Elf
     {
-        public int Heath {get; private set;} = 90;
+        public int Health {get; private set;} = 100;
 
         public Attack Attack()
         {
-            Random rng = newRandom();
-            if (rng.Next(0,3) == 0)
+            Random rng = new Random();
+            int atk = rng.Next(0,3);
+            if (atk == 0)
             {
                 return new Attack("Sword Slash", 10, AttackType.Slashing);
             }
-            else if(rng.Next(0,3) == 1)
+            else if(atk == 1)
             {
                 return new Attack("Bow Shot", 10, AttackType.Ranged);
             }

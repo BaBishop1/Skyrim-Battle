@@ -1,0 +1,15 @@
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\Skyrim_Battle.csproj.AssemblyReference.cache
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\Skyrim_Battle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\Skyrim_Battle.AssemblyInfoInputs.cache
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\Skyrim_Battle.AssemblyInfo.cs
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\Skyrim_Battle.csproj.CoreCompileInputs.cache
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\bin\Debug\net6.0\Skyrim_Battle.exe
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\bin\Debug\net6.0\Skyrim_Battle.deps.json
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\bin\Debug\net6.0\Skyrim_Battle.runtimeconfig.json
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\bin\Debug\net6.0\Skyrim_Battle.dll
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\bin\Debug\net6.0\Skyrim_Battle.pdb
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\Skyrim_Battle.dll
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\refint\Skyrim_Battle.dll
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\Skyrim_Battle.pdb
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\Skyrim_Battle.genruntimeconfig.cache
+C:\Users\Bisho\CodingFoundations\assignments\PairProgrammingGame\Skyrim_Battle\obj\Debug\net6.0\ref\Skyrim_Battle.dll
