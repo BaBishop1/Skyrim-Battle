@@ -15,7 +15,8 @@ namespace Skyrim_Battle
             int atk = rng.Next(0,3);
             if (atk == 0)
             {
-                return new Attack("Sword Slash", 10, AttackType.Slashing);
+                Attack attack1 = new Attack("Sword Slash", 10, AttackType.Slashing);
+                return attack1;
             }
             else if(atk == 1)
             {
@@ -41,7 +42,7 @@ namespace Skyrim_Battle
             {
                 Health -= (attack.Damage);
             }
-            return "Ahhh, I'll Kill You";
+            return "Ahhh, I'll Kill You!";
         }
     }
 }
