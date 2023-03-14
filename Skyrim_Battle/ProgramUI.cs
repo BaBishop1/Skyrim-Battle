@@ -4,16 +4,16 @@ namespace Skyrim_Battle
     {
         public void Run()
         {
-            NameSelector();
+            // NameSelector();
             Menu();
         }
 
-        private void NameSelector()
-        {
-            Console.Clear();
-            System.Console.WriteLine("Please enter your characters name:");
-            string charName = Console.ReadLine();
-        }
+        // private void NameSelector()
+        // {
+        //     Console.Clear();
+        //     System.Console.WriteLine("Please enter your characters name:");
+        //     string charName = Console.ReadLine();
+        // }
         private void Menu()
         {
             
@@ -187,9 +187,6 @@ namespace Skyrim_Battle
             {
                 System.Console.WriteLine("Who's Next!");
             }
-
-            
         }
-
     }
 }
